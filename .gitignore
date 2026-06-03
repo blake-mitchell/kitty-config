@@ -1,1 +1,31 @@
+# kitty local overrides (host-specific, not shared)
 local.conf
+
+# Generated cheat sheet output — fully reproducible with `make`
+cheatsheet/out/
+
+# IntelliJ / JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Editors
+*.swp
+*.swo
+*~
+.vscode/
+
+# OS cruft
+.DS_Store
+Thumbs.db
